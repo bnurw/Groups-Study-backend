@@ -1,0 +1,7 @@
+name = "group-study-backend"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+# Optional environment variables
+# [vars]
+# FRONTEND_ORIGIN = "https://your-group-study-frontend.com"

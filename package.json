@@ -1,0 +1,18 @@
+{
+  "name": "group-study-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker backend for Group Study - Stage 2",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250224.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^3.111.0"
+  }
+}
