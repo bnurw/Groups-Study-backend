@@ -2,6 +2,13 @@ name = "group-study-backend"
 main = "src/index.ts"
 compatibility_date = "2024-09-23"
 
+# Cloudflare D1 Database Binding
+[[d1_databases]]
+binding = "Db"
+database_name = "groupsstudydb"
+database_id = "groupsstudydb"
+
 # Optional environment variables
 # [vars]
 # FRONTEND_ORIGIN = "https://your-group-study-frontend.com"
+
